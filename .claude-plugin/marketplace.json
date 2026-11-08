@@ -1294,6 +1294,77 @@
         "deck-generation",
         "slide-design"
       ]
+    },
+    {
+      "name": "agent-efficiency",
+      "source": "./plugins/agent-efficiency",
+      "description": "High-leverage agent efficiency skills: context-mode sandbox compression, codebase-memory-mcp AST/call-graph queries, understand-anything semantic delta scans, skill-creator, web-design-guidelines, and skill-discovery.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Chun Li",
+        "email": "apex@chun0li.com",
+        "url": "https://github.com/chun0li"
+      },
+      "homepage": "https://github.com/chun0li/agents",
+      "license": "MIT",
+      "category": "workflows",
+      "keywords": [
+        "efficiency",
+        "context-mode",
+        "codebase-memory-mcp",
+        "understand-anything",
+        "skill-creator",
+        "skill-discovery"
+      ]
+    },
+    {
+      "name": "context-mode",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mksglu/context-mode.git",
+        "path": "."
+      },
+      "description": "Local sandbox and SQLite FTS5/BM25 index that keeps large tool outputs out of the context window and reduces token usage by up to 98% across 12 coding agents.",
+      "version": "2.0.0",
+      "author": {
+        "name": "Metehan Karslioglu",
+        "url": "https://github.com/mksglu"
+      },
+      "homepage": "https://github.com/mksglu/context-mode",
+      "license": "MIT",
+      "category": "memory",
+      "keywords": [
+        "context-window",
+        "sandbox",
+        "compression",
+        "bm25",
+        "sqlite",
+        "mcp"
+      ]
+    },
+    {
+      "name": "codebase-memory-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/DeusData/codebase-memory-mcp.git",
+        "path": "."
+      },
+      "description": "Local code intelligence MCP server that connects code, docs, routes, and call graphs across 158 languages in a persistent graph with CBM Lens and change-aware test selection.",
+      "version": "0.1.0",
+      "author": {
+        "name": "DeusData",
+        "url": "https://github.com/DeusData"
+      },
+      "homepage": "https://github.com/DeusData/codebase-memory-mcp",
+      "license": "MIT",
+      "category": "memory",
+      "keywords": [
+        "code-graph",
+        "ast",
+        "call-graph",
+        "mcp",
+        "code-intelligence"
+      ]
     }
   ]
 }

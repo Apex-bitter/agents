@@ -1,6 +1,6 @@
 # Complete Plugin Reference
 
-Browse all 94 marketplace plugins organized by category: 92 local plugins plus 2 external Claude Code marketplace entries (`pensyve` and `deja-vu`). The local source supports seven coding tools through native formats and adapters. Install commands below use Claude Code syntax. See the [tool setup guide](./harnesses.md) for other installation routes.
+Browse all 97 marketplace plugins organized by category: 93 local plugins plus 4 external Claude Code marketplace entries (`pensyve`, `deja-vu`, `context-mode`, and `codebase-memory-mcp`). The local source supports seven coding tools through native formats and adapters. Install commands below use Claude Code syntax. See the [tool setup guide](./harnesses.md) for other installation routes.
 
 ## Quick Start - Essential Plugins
 
@@ -129,7 +129,7 @@ Next.js, React + Vite, and Node.js project setup with pnpm and TypeScript best p
 | **c4-architecture**          | Comprehensive C4 architecture documentation workflow with bottom-up code analysis, component synthesis, container mapping, and context diagrams | `/plugin install c4-architecture`          |
 | **avoid-ai-writing**         | Audit and rewrite prose that reads as machine-generated across READMEs, changelogs, PR descriptions, and docs                                    | `/plugin install avoid-ai-writing`         |
 
-### 🔄 Workflows (8 plugins)
+### 🔄 Workflows (9 plugins)
 
 | Plugin                       | Description                                                                    | Install                                    |
 | ---------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------ |
@@ -141,6 +141,7 @@ Next.js, React + Vite, and Node.js project setup with pnpm and TypeScript best p
 | **agent-teams**              | Parallel code review, debugging, feature, and research teams                   | `/plugin install agent-teams`              |
 | **ship-mate**                | Story-file to reviewed, tested PR workflow orchestration                       | `/plugin install ship-mate`                |
 | **superself**                | Drive the Superself `self` CLI: project state (goals, decisions, work units, reports) outside the code repo, context at session start, done gated by evidence | `/plugin install superself`                |
+| **agent-efficiency**         | High-leverage efficiency skills: context-mode sandbox compression, codebase-memory-mcp AST/call-graph queries, understand-anything delta scans, skill-creator, web-design-guidelines, and skill-discovery | `/plugin install agent-efficiency`         |
 
 ### ✅ Testing (1 plugin)
 
@@ -178,12 +179,14 @@ Next.js, React + Vite, and Node.js project setup with pnpm and TypeScript best p
 | **llm-finetuning**       | Eval-gated LLM fine-tuning lifecycle: dataset prep, LoRA/QLoRA training, and promotion gating | `/plugin install llm-finetuning`       |
 | **dgx-spark-ops**        | NVIDIA DGX Spark (GB10) environment ops: aarch64/CUDA-13 stack setup, training preflights, unified-memory/thermal management | `/plugin install dgx-spark-ops`        |
 
-### 🧠 Memory (2 external plugins)
+### 🧠 Memory & Context Intelligence (4 external plugins)
 
-| Plugin      | Description                                                                                  | Install                   |
-| ----------- | -------------------------------------------------------------------------------------------- | ------------------------- |
-| **pensyve** | Cross-session memory runtime with MCP-backed recall, skills, commands, agents, and hooks     | `/plugin install pensyve` |
-| **deja-vu** | Local cross-agent session transcript recall (BM25 over 43 coding agents) with MCP, hooks, skill, and `/deja` command | `/plugin install deja-vu` |
+| Plugin                  | Description                                                                                  | Install                               |
+| ----------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------- |
+| **pensyve**             | Cross-session memory runtime with MCP-backed recall, skills, commands, and hooks             | `/plugin install pensyve`             |
+| **deja-vu**             | Local cross-agent session transcript recall (BM25 over 43 coding agents) with MCP and hooks  | `/plugin install deja-vu`             |
+| **context-mode**        | Local sandbox and SQLite FTS5/BM25 index reducing tool output context usage by up to 98%     | `/plugin install context-mode`        |
+| **codebase-memory-mcp** | Local 158-language AST/call-graph MCP server with CBM Lens and change-aware test selection   | `/plugin install codebase-memory-mcp` |
 
 ### 📊 Data (2 plugins)
 
@@ -367,7 +370,7 @@ The marketplace commands in this section run inside Claude Code. Other tools use
 /plugin marketplace add wshobson/agents
 ```
 
-This makes all 94 marketplace plugins available for installation, but **does not load any agents or tools** into your context.
+This makes all 97 marketplace plugins available for installation, but **does not load any agents or tools** into your context.
 
 ### Step 2: Install Specific Plugins
 
@@ -421,7 +424,7 @@ Selectors, install paths, and gotchas: [harnesses.md](./harnesses.md#skills-only
 
 ## See Also
 
-- [Agent Skills](./agent-skills.md) - 185 specialized skills across plugins
+- [Agent Skills](./agent-skills.md) - 191 specialized skills across plugins
 - [Agent Reference](./agents.md) - Complete agent catalog
 - [Usage Guide](./usage.md) - Commands and workflows
 - [Architecture](./architecture.md) - Design principles

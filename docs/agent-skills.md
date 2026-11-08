@@ -1,6 +1,6 @@
 # Agent Skills
 
-Agent Skills provide specialized guidance for AI coding agents using the shared [Agent Skills Specification](https://agentskills.io/specification). The repository includes 185 local skills across 52 plugins, with support for seven coding tools. See the [capability matrix](./harnesses.md) for discovery and installation differences.
+Agent Skills provide specialized guidance for AI coding agents using the shared [Agent Skills Specification](https://agentskills.io/specification). The repository includes 191 local skills across 53 plugins, with support for seven coding tools. See the [capability matrix](./harnesses.md) for discovery and installation differences.
 
 Install a skill on its own into a tool supported by the Agent Skills installers:
 
@@ -410,6 +410,17 @@ Skills provide domain guidance that coding agents can load when relevant. Each s
 | **spark-training-gotchas**   | Preflight and diagnose the ten known failure modes for ML training on DGX Spark         |
 | **spark-memory-thermal-ops** | Manage unified memory and thermals during long-running ML jobs on GB10                  |
 
+### Agent Efficiency (6 skills)
+
+| Skill                     | Description                                                                                       |
+| ------------------------- | ------------------------------------------------------------------------------------------------- |
+| **context-mode**          | Sandbox noisy tool outputs and query a local SQLite FTS5/BM25 index to cut context usage by ~98% |
+| **codebase-memory-mcp**   | Query persistent 158-language AST and static call-graph relationships via MCP instead of grep/cat |
+| **understand-anything**   | Synthesize semantic repository knowledge graphs and run incremental architectural delta scans     |
+| **skill-creator**         | Author portable, progressive-disclosure SKILL.md packages compliant with agentskills.io           |
+| **web-design-guidelines** | Audit and build web interfaces for keyboard accessibility, tabular numerals, and layout rhythm    |
+| **skill-discovery**       | Discover, preview, supply-chain audit, and pin external skills via `gh skill` and `npx skills`    |
+
 ## How Skills Work
 
 ### Activation
@@ -454,7 +465,7 @@ fastapi-templates skill → Supplies production-ready templates
 
 ## Specification Compliance
 
-All 185 skills follow the [Agent Skills Specification](https://agentskills.io/specification):
+All 191 skills follow the [Agent Skills Specification](https://agentskills.io/specification):
 
 - ✓ Required `name` field (hyphen-case)
 - ✓ Required `description` field with "Use when" clause
