@@ -30,93 +30,93 @@
     }
   },
   "agent-efficiency/codebase-memory-mcp": {
-    "badge": "bronze",
-    "composite": 62.57575757575757,
-    "digest": "ba6e77308e711600f84f41afc02948f14ec955ac3dcc3e422579541615115f8c",
-    "static_score": 0.6234999999999999,
+    "badge": "platinum",
+    "composite": 90.40316205533597,
+    "digest": "eefe445921e3f0439fc428f9c4ee7f8fa41773b6367695f51e0b916b96eb5522",
+    "static_score": 0.9053913043478261,
     "sub_scores": {
-      "ecosystem_coherence": 0.5,
-      "frontmatter_quality": 0.6499999999999999,
+      "ecosystem_coherence": 0.75,
+      "frontmatter_quality": 0.9199999999999999,
       "harness_portability": 1.0,
-      "orchestration_wiring": 0.75,
-      "progressive_disclosure": 0.2,
-      "structural_completeness": 0.35000000000000003,
-      "token_efficiency": 1.0
+      "orchestration_wiring": 1.0,
+      "progressive_disclosure": 0.65,
+      "structural_completeness": 1.0,
+      "token_efficiency": 0.9443478260869566
     }
   },
   "agent-efficiency/context-mode": {
-    "badge": "bronze",
-    "composite": 66.5909090909091,
-    "digest": "b0681687066171a000f94a92516363c4ecea0c0c2d5661cb1c6b70fa324dfd7b",
-    "static_score": 0.6647,
+    "badge": "platinum",
+    "composite": 90.33333333333333,
+    "digest": "64874627376d31890604da70d56bc41a0e03620be1e1ff642e119b3a101e4c73",
+    "static_score": 0.9047000000000001,
     "sub_scores": {
-      "ecosystem_coherence": 0.5,
-      "frontmatter_quality": 0.71,
+      "ecosystem_coherence": 0.75,
+      "frontmatter_quality": 0.9199999999999999,
       "harness_portability": 1.0,
-      "orchestration_wiring": 0.8,
-      "progressive_disclosure": 0.2,
-      "structural_completeness": 0.49999999999999994,
-      "token_efficiency": 0.95
+      "orchestration_wiring": 1.0,
+      "progressive_disclosure": 0.65,
+      "structural_completeness": 1.0,
+      "token_efficiency": 0.9366666666666666
     }
   },
   "agent-efficiency/skill-creator": {
-    "badge": "bronze",
-    "composite": 63.55401844532279,
-    "digest": "e2911d33ead41c00bd7f766bb67cd16253acb4dfbcd311b436918a99f75192ea",
-    "static_score": 0.6469347826086956,
+    "badge": "gold",
+    "composite": 86.14100185528757,
+    "digest": "07e92958e1884c641341ce908a20997f33412036c65360b7907c9ab33dbeb768",
+    "static_score": 0.873695918367347,
     "sub_scores": {
-      "ecosystem_coherence": 0.5,
-      "frontmatter_quality": 0.6499999999999999,
+      "ecosystem_coherence": 0.75,
+      "frontmatter_quality": 0.9199999999999999,
       "harness_portability": 1.0,
-      "orchestration_wiring": 0.75,
-      "progressive_disclosure": 0.2,
-      "structural_completeness": 0.6,
-      "token_efficiency": 0.9826086956521739
+      "orchestration_wiring": 0.85,
+      "progressive_disclosure": 0.65,
+      "structural_completeness": 1.0,
+      "token_efficiency": 0.9755102040816327
     }
   },
   "agent-efficiency/skill-discovery": {
-    "badge": "bronze",
-    "composite": 62.6338971106413,
-    "digest": "cb70f31766c8a8f26fd0e6e9155ee8167eccced77ca2acbe02affc33d842650d",
-    "static_score": 0.6268255813953488,
+    "badge": "platinum",
+    "composite": 90.68580542264752,
+    "digest": "cc82bf4bb1d3b5e72715aeec9034e52c3ce4cc9ee553c064a71e88b0d8251cac",
+    "static_score": 0.9081894736842105,
     "sub_scores": {
-      "ecosystem_coherence": 0.5,
-      "frontmatter_quality": 0.6499999999999999,
+      "ecosystem_coherence": 0.75,
+      "frontmatter_quality": 0.9199999999999999,
       "harness_portability": 1.0,
-      "orchestration_wiring": 0.75,
-      "progressive_disclosure": 0.2,
-      "structural_completeness": 0.39999999999999997,
-      "token_efficiency": 0.9813953488372094
+      "orchestration_wiring": 1.0,
+      "progressive_disclosure": 0.65,
+      "structural_completeness": 1.0,
+      "token_efficiency": 0.9754385964912281
     }
   },
   "agent-efficiency/understand-anything": {
-    "badge": "bronze",
-    "composite": 65.93980343980344,
-    "digest": "1e79e3a351876f84f833903d08fc0839727a9e3293fc68524574f37103e22f58",
-    "static_score": 0.647254054054054,
+    "badge": "platinum",
+    "composite": 90.5729564553094,
+    "digest": "98937850d6daff49c522a730d32e300b9cb78ae8839cf146ef89a03678cd2135",
+    "static_score": 0.907072268907563,
     "sub_scores": {
-      "ecosystem_coherence": 0.5,
-      "frontmatter_quality": 0.71,
+      "ecosystem_coherence": 0.75,
+      "frontmatter_quality": 0.9199999999999999,
       "harness_portability": 1.0,
-      "orchestration_wiring": 0.8,
-      "progressive_disclosure": 0.2,
-      "structural_completeness": 0.3,
-      "token_efficiency": 0.9783783783783784
+      "orchestration_wiring": 1.0,
+      "progressive_disclosure": 0.65,
+      "structural_completeness": 1.0,
+      "token_efficiency": 0.9630252100840336
     }
   },
   "agent-efficiency/web-design-guidelines": {
-    "badge": "bronze",
-    "composite": 60.378787878787875,
-    "digest": "98bf3ad457915d74003ae9b5d86d4fb5954bcd8c6a774500e41671a3e1cdfdcb",
-    "static_score": 0.597,
+    "badge": "platinum",
+    "composite": 90.68002863278454,
+    "digest": "23d87b28a4624d9ef238fc5b6e21a3c6484ab20e5798e012834be4c9c70c7012",
+    "static_score": 0.908132283464567,
     "sub_scores": {
-      "ecosystem_coherence": 0.5,
-      "frontmatter_quality": 0.6499999999999999,
+      "ecosystem_coherence": 0.75,
+      "frontmatter_quality": 0.9199999999999999,
       "harness_portability": 1.0,
-      "orchestration_wiring": 0.7,
-      "progressive_disclosure": 0.2,
-      "structural_completeness": 0.2,
-      "token_efficiency": 1.0
+      "orchestration_wiring": 1.0,
+      "progressive_disclosure": 0.65,
+      "structural_completeness": 1.0,
+      "token_efficiency": 0.9748031496062992
     }
   },
   "agent-teams/multi-reviewer-patterns": {

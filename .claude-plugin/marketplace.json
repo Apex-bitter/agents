@@ -1299,7 +1299,7 @@
       "name": "agent-efficiency",
       "source": "./plugins/agent-efficiency",
       "description": "High-leverage agent efficiency skills: context-mode sandbox compression, codebase-memory-mcp AST/call-graph queries, understand-anything semantic delta scans, skill-creator, web-design-guidelines, and skill-discovery.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Chun Li",
         "email": "apex@chun0li.com",
