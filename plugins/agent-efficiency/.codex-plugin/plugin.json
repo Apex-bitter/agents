@@ -1,0 +1,26 @@
+{
+  "name": "agent-efficiency",
+  "version": "1.0.0",
+  "description": "High-leverage agent efficiency skills: context-mode sandbox compression, codebase-memory-mcp AST/call-graph queries, understand-anything semantic delta scans, skill-creator, web-design-guidelines, and skill-discovery.",
+  "skills": "./skills/",
+  "author": {
+    "name": "Chun Li",
+    "email": "apex@chun0li.com"
+  },
+  "homepage": "https://github.com/wshobson/agents/tree/main/plugins/agent-efficiency",
+  "repository": "https://github.com/wshobson/agents",
+  "license": "MIT",
+  "keywords": [
+    "codebase-memory-mcp",
+    "context-mode",
+    "skill-creator",
+    "skill-discovery",
+    "understand-anything",
+    "web-design-guidelines"
+  ],
+  "interface": {
+    "displayName": "Agent Efficiency",
+    "shortDescription": "High-leverage agent efficiency skills: context-mode sandbox compression, codebase-memory-mcp AST/call-graph queries\u2026",
+    "category": "Coding"
+  }
+}

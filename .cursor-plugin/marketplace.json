@@ -22,6 +22,17 @@
       "license": "MIT"
     },
     {
+      "name": "agent-efficiency",
+      "source": "./plugins/agent-efficiency",
+      "version": "1.0.0",
+      "description": "High-leverage agent efficiency skills: context-mode sandbox compression, codebase-memory-mcp AST/call-graph queries, understand-anything semantic delta scans, skill-creator, web-design-guidelines, and skill-discovery.",
+      "author": {
+        "name": "Chun Li",
+        "email": "apex@chun0li.com"
+      },
+      "license": "MIT"
+    },
+    {
       "name": "agent-orchestration",
       "source": "./plugins/agent-orchestration",
       "version": "1.2.3",

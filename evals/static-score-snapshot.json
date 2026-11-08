@@ -1,17 +1,17 @@
 {
   "accessibility-compliance/screen-reader-testing": {
     "badge": "silver",
-    "composite": 77.11108700368844,
-    "digest": "da3ebdbe9b51ff5daaea1949f89976b43c6eef51a1c7d0baec1a1f5bd2598638",
-    "static_score": 0.7680997613365156,
+    "composite": 78.48484848484848,
+    "digest": "85cb88e08f9fc1076baad63d5778f7ab62df6a3cfd791c3b7c18ebafdf99f4da",
+    "static_score": 0.7782,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.71,
-      "harness_portability": 0.85,
+      "harness_portability": 1.0,
       "orchestration_wiring": 0.9,
-      "progressive_disclosure": 0.6,
-      "structural_completeness": 0.8500000000000001,
-      "token_efficiency": 0.9322195704057279
+      "progressive_disclosure": 0.75,
+      "structural_completeness": 0.65,
+      "token_efficiency": 0.9333333333333333
     }
   },
   "accessibility-compliance/wcag-audit-patterns": {
@@ -27,6 +27,96 @@
       "progressive_disclosure": 0.35,
       "structural_completeness": 0.45,
       "token_efficiency": 0.9793103448275862
+    }
+  },
+  "agent-efficiency/codebase-memory-mcp": {
+    "badge": "bronze",
+    "composite": 62.57575757575757,
+    "digest": "ba6e77308e711600f84f41afc02948f14ec955ac3dcc3e422579541615115f8c",
+    "static_score": 0.6234999999999999,
+    "sub_scores": {
+      "ecosystem_coherence": 0.5,
+      "frontmatter_quality": 0.6499999999999999,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.75,
+      "progressive_disclosure": 0.2,
+      "structural_completeness": 0.35000000000000003,
+      "token_efficiency": 1.0
+    }
+  },
+  "agent-efficiency/context-mode": {
+    "badge": "bronze",
+    "composite": 66.5909090909091,
+    "digest": "b0681687066171a000f94a92516363c4ecea0c0c2d5661cb1c6b70fa324dfd7b",
+    "static_score": 0.6647,
+    "sub_scores": {
+      "ecosystem_coherence": 0.5,
+      "frontmatter_quality": 0.71,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.8,
+      "progressive_disclosure": 0.2,
+      "structural_completeness": 0.49999999999999994,
+      "token_efficiency": 0.95
+    }
+  },
+  "agent-efficiency/skill-creator": {
+    "badge": "bronze",
+    "composite": 63.55401844532279,
+    "digest": "e2911d33ead41c00bd7f766bb67cd16253acb4dfbcd311b436918a99f75192ea",
+    "static_score": 0.6469347826086956,
+    "sub_scores": {
+      "ecosystem_coherence": 0.5,
+      "frontmatter_quality": 0.6499999999999999,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.75,
+      "progressive_disclosure": 0.2,
+      "structural_completeness": 0.6,
+      "token_efficiency": 0.9826086956521739
+    }
+  },
+  "agent-efficiency/skill-discovery": {
+    "badge": "bronze",
+    "composite": 62.6338971106413,
+    "digest": "cb70f31766c8a8f26fd0e6e9155ee8167eccced77ca2acbe02affc33d842650d",
+    "static_score": 0.6268255813953488,
+    "sub_scores": {
+      "ecosystem_coherence": 0.5,
+      "frontmatter_quality": 0.6499999999999999,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.75,
+      "progressive_disclosure": 0.2,
+      "structural_completeness": 0.39999999999999997,
+      "token_efficiency": 0.9813953488372094
+    }
+  },
+  "agent-efficiency/understand-anything": {
+    "badge": "bronze",
+    "composite": 65.93980343980344,
+    "digest": "1e79e3a351876f84f833903d08fc0839727a9e3293fc68524574f37103e22f58",
+    "static_score": 0.647254054054054,
+    "sub_scores": {
+      "ecosystem_coherence": 0.5,
+      "frontmatter_quality": 0.71,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.8,
+      "progressive_disclosure": 0.2,
+      "structural_completeness": 0.3,
+      "token_efficiency": 0.9783783783783784
+    }
+  },
+  "agent-efficiency/web-design-guidelines": {
+    "badge": "bronze",
+    "composite": 60.378787878787875,
+    "digest": "98bf3ad457915d74003ae9b5d86d4fb5954bcd8c6a774500e41671a3e1cdfdcb",
+    "static_score": 0.597,
+    "sub_scores": {
+      "ecosystem_coherence": 0.5,
+      "frontmatter_quality": 0.6499999999999999,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.7,
+      "progressive_disclosure": 0.2,
+      "structural_completeness": 0.2,
+      "token_efficiency": 1.0
     }
   },
   "agent-teams/multi-reviewer-patterns": {
@@ -121,17 +211,17 @@
   },
   "api-scaffolding/fastapi-templates": {
     "badge": "bronze",
-    "composite": 69.15151515151516,
-    "digest": "0caf4fcd52dc44bd0541d49e6167c07b8d63739b995023b597f3383c4d13080a",
-    "static_score": 0.6840999999999999,
+    "composite": 69.86711376055639,
+    "digest": "7fb37399824d222f500273c0b225d6fa7e81b8f7e6247596e3c73e0acdbb93fe",
+    "static_score": 0.6994344262295081,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.6499999999999999,
       "harness_portability": 1.0,
       "orchestration_wiring": 0.75,
       "progressive_disclosure": 0.65,
-      "structural_completeness": 0.35000000000000003,
-      "token_efficiency": 0.9733333333333334
+      "structural_completeness": 0.49999999999999994,
+      "token_efficiency": 0.9770491803278689
     }
   },
   "avoid-ai-writing/avoid-ai-writing": {
@@ -152,7 +242,7 @@
   "backend-development/api-design-principles": {
     "badge": "silver",
     "composite": 76.20326643053916,
-    "digest": "c6a7d9a6d6820b7e21b1bd0b5cfd43c4917fdbde2025e7a331b1934fd341c4b4",
+    "digest": "58cb47848783e20f3001a428ba3799929c37a7216c3927f1ee4ca1c872e0fa45",
     "static_score": 0.7446623376623377,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -167,7 +257,7 @@
   "backend-development/architecture-patterns": {
     "badge": "silver",
     "composite": 73.7937062937063,
-    "digest": "250d7547452d3b33d18bdf3d5dc8fec874c9eaa02b2def1ee9d04933624e053c",
+    "digest": "3c8e0e6ca2751d9be7eff276203f2e0dd8cb56405d25f21273eed93ec0aed139",
     "static_score": 0.7427076923076923,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
@@ -212,7 +302,7 @@
   "backend-development/microservices-patterns": {
     "badge": "bronze",
     "composite": 65.15151515151514,
-    "digest": "88e85f68d26afee0a26631abb9f79124942e130fedd67f709568ca7623a66173",
+    "digest": "c3c04c429b652b75cfd5f77eab47d2686494b390d1107f3585fe6692ca0b4cf7",
     "static_score": 0.6422,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -300,18 +390,18 @@
     }
   },
   "block-no-verify/block-no-verify-hook": {
-    "badge": "bronze",
-    "composite": 69.58931419457734,
-    "digest": "e7fbf6b8b19bf6379b9337ed017158e19e1e4c65752c43cd1433192839968c39",
-    "static_score": 0.6954842105263157,
+    "badge": "silver",
+    "composite": 70.97382920110192,
+    "digest": "5501cf3fec78c00ea3657e063edff331287bd576adf16588e665b39f8dce2198",
+    "static_score": 0.7081909090909091,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.6499999999999999,
       "harness_portability": 0.98,
       "orchestration_wiring": 0.85,
-      "progressive_disclosure": 0.5,
+      "progressive_disclosure": 0.6,
       "structural_completeness": 0.6,
-      "token_efficiency": 0.8131578947368421
+      "token_efficiency": 0.7987878787878788
     }
   },
   "blockchain-web3/defi-protocol-templates": {
@@ -422,7 +512,7 @@
   "cicd-automation/deployment-pipeline-design": {
     "badge": "silver",
     "composite": 76.18544600938968,
-    "digest": "791dbf6eb26565669b989a039292c10d9dc1a447c5e988c645058c2222b7624e",
+    "digest": "ca872b0379f70abeb8b593171cd9ade9088c1291abde0d6d06bfbcb485aee19a",
     "static_score": 0.7738859154929578,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
@@ -436,9 +526,9 @@
   },
   "cicd-automation/github-actions-templates": {
     "badge": "silver",
-    "composite": 72.51082251082252,
-    "digest": "a772e5fbc9cf2bfde8c2c4c7915d7c98ff218376dc767b0ca20e13dc93b30e48",
-    "static_score": 0.7240571428571428,
+    "composite": 72.49726177437022,
+    "digest": "1333e048feba98203574cad3d85e45bceaca2be8f407dd02a07fea45bdf4f132",
+    "static_score": 0.7239228915662651,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.71,
@@ -446,14 +536,14 @@
       "orchestration_wiring": 0.8,
       "progressive_disclosure": 0.6,
       "structural_completeness": 0.45,
-      "token_efficiency": 0.8761904761904762
+      "token_efficiency": 0.8746987951807229
     }
   },
   "cicd-automation/gitlab-ci-patterns": {
     "badge": "silver",
-    "composite": 72.46753246753246,
-    "digest": "628602f9e728969c9ac8f865c399039e4dd880c17d12b8a944db87df3da6cf58",
-    "static_score": 0.7236285714285714,
+    "composite": 72.48803827751196,
+    "digest": "1dfa5c004af7161a8e2d51a2f662b2f80b37a1b6b004181b4ccb9f284eeb3254",
+    "static_score": 0.7238315789473685,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.71,
@@ -461,14 +551,14 @@
       "orchestration_wiring": 0.8,
       "progressive_disclosure": 0.6,
       "structural_completeness": 0.45,
-      "token_efficiency": 0.8714285714285714
+      "token_efficiency": 0.8736842105263158
     }
   },
   "cicd-automation/secrets-management": {
     "badge": "silver",
-    "composite": 71.41711229946524,
-    "digest": "ff0f06ca5a97d053c34287722f2f07362a00872ece8f44971a95e81686f90205",
-    "static_score": 0.7247794117647058,
+    "composite": 71.41479369339149,
+    "digest": "447c6faaea8d3b5f8d4a6bb4abc47142bb2908b825442e0a5976359e9a1aaf3a",
+    "static_score": 0.7247564575645756,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.6499999999999999,
@@ -476,7 +566,7 @@
       "orchestration_wiring": 0.8,
       "progressive_disclosure": 0.6,
       "structural_completeness": 0.6000000000000001,
-      "token_efficiency": 0.9308823529411765
+      "token_efficiency": 0.9306273062730628
     }
   },
   "cloud-infrastructure/cost-optimization": {
@@ -526,9 +616,9 @@
   },
   "cloud-infrastructure/linkerd-patterns": {
     "badge": "silver",
-    "composite": 71.37806637806638,
-    "digest": "817d53aeece25a4654b278d79739c31e2f2ef42627cf5b0243229f6364debd43",
-    "static_score": 0.7198428571428571,
+    "composite": 71.38859180035651,
+    "digest": "73cde54b42f79508842ff08674bf3dfd64e054419dc45b95ab588dd437168a8e",
+    "static_score": 0.7199470588235294,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.71,
@@ -536,7 +626,7 @@
       "orchestration_wiring": 0.75,
       "progressive_disclosure": 0.6,
       "structural_completeness": 0.65,
-      "token_efficiency": 0.9015873015873016
+      "token_efficiency": 0.9027450980392157
     }
   },
   "cloud-infrastructure/mtls-configuration": {
@@ -602,7 +692,7 @@
   "conductor/context-driven-development": {
     "badge": "bronze",
     "composite": 64.69696969696969,
-    "digest": "a8391f332d3ab886af31f21b71ad17328ce605dd17b276da25c6a7c8ea284d25",
+    "digest": "3c97526d8e9c203ac48ad7eb16d8e33744975f8d86ebffc311990b45455fdd8c",
     "static_score": 0.6322,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -641,6 +731,21 @@
       "orchestration_wiring": 0.7999999999999999,
       "progressive_disclosure": 0.35,
       "structural_completeness": 0.15000000000000002,
+      "token_efficiency": 1.0
+    }
+  },
+  "content-marketing/social-evidence-research": {
+    "badge": "bronze",
+    "composite": 66.21212121212122,
+    "digest": "c6810a924bf9e53337c7543629a006b4418068da0ce38ddaf913b289c7aa17ad",
+    "static_score": 0.6436999999999999,
+    "sub_scores": {
+      "ecosystem_coherence": 0.5,
+      "frontmatter_quality": 0.71,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.75,
+      "progressive_disclosure": 0.35,
+      "structural_completeness": 0.15,
       "token_efficiency": 1.0
     }
   },
@@ -722,7 +827,7 @@
   "developer-essentials/auth-implementation-patterns": {
     "badge": "bronze",
     "composite": 68.18181818181817,
-    "digest": "dd83e9798b42cd97ab7af61090214592d94aab3ae2d018bd4bdf5bb775bc8604",
+    "digest": "991d107aa41cf60369272703aad8f42ad5592a9f889d0a5f896293b93a820d04",
     "static_score": 0.6652,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -751,39 +856,39 @@
   },
   "developer-essentials/code-review-excellence": {
     "badge": "silver",
-    "composite": 76.90079183797776,
-    "digest": "55ecfe4625219343c554d8b063c5e26ffd5263b38e772d301713c1cda2a1e910",
-    "static_score": 0.7485678391959799,
+    "composite": 74.1301617208353,
+    "digest": "3451fb30f883565aec38d61124748f1833bc626970f7d960683a5a4c0d283430",
+    "static_score": 0.7308886010362694,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.6499999999999999,
-      "harness_portability": 0.85,
-      "orchestration_wiring": 1.0,
-      "progressive_disclosure": 0.6,
-      "structural_completeness": 0.6000000000000001,
-      "token_efficiency": 0.9507537688442211
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.85,
+      "progressive_disclosure": 0.75,
+      "structural_completeness": 0.45,
+      "token_efficiency": 0.9709844559585492
     }
   },
   "developer-essentials/debugging-strategies": {
     "badge": "silver",
-    "composite": 74.36374749944432,
-    "digest": "63842bb107deeda861d7e2586719671aa79dd26177dc0ce1f6d8d158695a4c1a",
-    "static_score": 0.7359511002444987,
+    "composite": 75.63636363636364,
+    "digest": "42b6f8d95b99d0da1668d0e207ca10d5c19682078a2b0957f4826b65fc4efca9",
+    "static_score": 0.7423,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.6499999999999999,
-      "harness_portability": 0.85,
+      "harness_portability": 1.0,
       "orchestration_wiring": 0.9,
-      "progressive_disclosure": 0.6,
-      "structural_completeness": 0.7000000000000001,
-      "token_efficiency": 0.9550122249388753
+      "progressive_disclosure": 0.75,
+      "structural_completeness": 0.45,
+      "token_efficiency": 0.97
     }
   },
   "developer-essentials/e2e-testing-patterns": {
     "badge": "silver",
-    "composite": 74.6945773524721,
-    "digest": "3fd450781acafb4a62d45147c88b6f509f49cb77bed079e017ff2ac2fdcd7003",
-    "static_score": 0.7314263157894737,
+    "composite": 74.69696969696969,
+    "digest": "85f95d9d51a34848f76f17c811acf55dcfff88485fb696386138adbc2dcc0af2",
+    "static_score": 0.73145,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.71,
@@ -791,13 +896,13 @@
       "orchestration_wiring": 0.85,
       "progressive_disclosure": 0.65,
       "structural_completeness": 0.39999999999999997,
-      "token_efficiency": 0.9747368421052631
+      "token_efficiency": 0.975
     }
   },
   "developer-essentials/error-handling-patterns": {
     "badge": "silver",
     "composite": 72.34519104084322,
-    "digest": "2a08cde2658136d32af11a922bf1a8ec8f86416de48e01639244805dcb92d32c",
+    "digest": "d53b6e5dbe97136924201bfda7fdb90e1b1eb8637e981a21346860dc7ceb7242",
     "static_score": 0.7087173913043479,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -810,24 +915,24 @@
     }
   },
   "developer-essentials/git-advanced-workflows": {
-    "badge": "bronze",
-    "composite": 69.3809523809524,
-    "digest": "e1574618fe755c8be527c1ade6060056c25ec9fcc0a362ed16959e0fe53c6c27",
-    "static_score": 0.6918714285714286,
+    "badge": "silver",
+    "composite": 70.91222570532916,
+    "digest": "0d3811273108d9bd77657cac427c67f2dd499df79f4a1d64fc4d98847e3947e7",
+    "static_score": 0.7060310344827586,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.6499999999999999,
       "harness_portability": 1.0,
       "orchestration_wiring": 0.75,
-      "progressive_disclosure": 0.65,
+      "progressive_disclosure": 0.75,
       "structural_completeness": 0.45,
-      "token_efficiency": 0.9485714285714286
+      "token_efficiency": 0.9503448275862069
     }
   },
   "developer-essentials/monorepo-management": {
     "badge": "silver",
     "composite": 72.93084476045371,
-    "digest": "a01918f8ed2b003783107b1ac69dab2a97c9c7960353a19f83403f28c80d99fc",
+    "digest": "61952fa120061344abb5783d5a8aa29953f1aa45631139a8efcad0da5014dc45",
     "static_score": 0.7307653631284916,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -857,7 +962,7 @@
   "developer-essentials/sql-optimization-patterns": {
     "badge": "silver",
     "composite": 72.82022680795689,
-    "digest": "756773afe23c57de046a79571ef067785f678b6c1108a1f7c5cc00777770bf06",
+    "digest": "378b3f17b7a233ded943f7ee87573c08e85c4de132320076d986504435c8ff35",
     "static_score": 0.726920245398773,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -871,17 +976,17 @@
   },
   "developer-essentials/turborepo-caching": {
     "badge": "silver",
-    "composite": 73.02779450130444,
-    "digest": "7eb976c2a4971131ce36d7dd77e150af7d7b41ec1f6b43a7741e8100ba1edf23",
-    "static_score": 0.7354251655629139,
+    "composite": 73.03105310531053,
+    "digest": "d80cf0ccc54a24ec2ceffbcdd119d9029f091ce2dcef04f1a08aa04236c420c2",
+    "static_score": 0.7264574257425743,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.71,
-      "harness_portability": 1.0,
+      "harness_portability": 0.85,
       "orchestration_wiring": 0.8,
       "progressive_disclosure": 0.6,
       "structural_completeness": 0.7000000000000001,
-      "token_efficiency": 0.8913907284768212
+      "token_efficiency": 0.8917491749174917
     }
   },
   "dgx-spark-ops/spark-environment-setup": {
@@ -931,17 +1036,17 @@
   },
   "documentation-generation/architecture-decision-records": {
     "badge": "silver",
-    "composite": 71.9090909090909,
-    "digest": "aae8098292356e7237b6f3b5f3e736d2bdb544eb70a20e7288e3298edec46686",
-    "static_score": 0.7233999999999999,
+    "composite": 72.78376990241398,
+    "digest": "c651e3147ca283d1ddda2a2cdd0058beaa388afc75377252d96d4cf3ead2a672",
+    "static_score": 0.7405593220338983,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.6499999999999999,
-      "harness_portability": 0.85,
+      "harness_portability": 1.0,
       "orchestration_wiring": 0.8,
-      "progressive_disclosure": 0.6,
+      "progressive_disclosure": 0.65,
       "structural_completeness": 0.65,
-      "token_efficiency": 0.96
+      "token_efficiency": 0.9728813559322034
     }
   },
   "documentation-generation/changelog-automation": {
@@ -962,7 +1067,7 @@
   "documentation-generation/openapi-spec-generation": {
     "badge": "bronze",
     "composite": 68.33333333333333,
-    "digest": "a48288aba83051b46e7e957b22a0239a5dac433b9c71ad58e55ccf6015e41caf",
+    "digest": "e40d86b4591349333d43aa8f12555ae593490f03ed732d639e68b34d102414a0",
     "static_score": 0.6775,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -1020,18 +1125,18 @@
     }
   },
   "file-conversion/file-conversion": {
-    "badge": "bronze",
-    "composite": 66.13636363636364,
-    "digest": "2777899e8526b38dd0223ce77bae668115ab068e27edda5bbea359bfaed39624",
-    "static_score": 0.6462,
+    "badge": "silver",
+    "composite": 72.14015151515152,
+    "digest": "cc1ce1ff044f9e2d3975e2bfe89d5bc078c820cfefe98c7770ea18415c66d318",
+    "static_score": 0.7163875,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.5599999999999999,
       "harness_portability": 1.0,
       "orchestration_wiring": 1.0,
-      "progressive_disclosure": 0.2,
-      "structural_completeness": 0.35,
-      "token_efficiency": 0.9333333333333333
+      "progressive_disclosure": 0.5,
+      "structural_completeness": 0.6,
+      "token_efficiency": 0.96875
     }
   },
   "framework-migration/angular-migration": {
@@ -1142,7 +1247,7 @@
   "frontend-mobile-development/tailwind-design-system": {
     "badge": "silver",
     "composite": 72.9480052321779,
-    "digest": "59d785326bd509b9d069356215767294308e5677c5935459945e1424b090d5e8",
+    "digest": "9d936fc75216bc992917448e0c4983fd99d5fb14a88aceeb32e49aac2bc818c2",
     "static_score": 0.7231352517985612,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -1157,7 +1262,7 @@
   "game-development/godot-gdscript-patterns": {
     "badge": "bronze",
     "composite": 69.79437229437228,
-    "digest": "be81fd1fac66b5eed60c616511a42edd7b73e636fbda21bf191e5d7163a902bf",
+    "digest": "2ae848e1f6834fbbc8562ffd3578f05427b9f31323fc42ea1d6669ae18d867c7",
     "static_score": 0.6804142857142857,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -1229,6 +1334,21 @@
       "token_efficiency": 0.9773584905660377
     }
   },
+  "incident-response/connectivity-triage": {
+    "badge": "silver",
+    "composite": 76.67464114832536,
+    "digest": "34211ebcd5ec323436cc24628ce67a9d24cd8876f5da90a221b4dbc351180527",
+    "static_score": 0.7669789473684211,
+    "sub_scores": {
+      "ecosystem_coherence": 0.75,
+      "frontmatter_quality": 0.77,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.8,
+      "progressive_disclosure": 0.65,
+      "structural_completeness": 0.55,
+      "token_efficiency": 0.9508771929824561
+    }
+  },
   "incident-response/incident-runbook-templates": {
     "badge": "silver",
     "composite": 73.6455463728191,
@@ -1245,12 +1365,12 @@
     }
   },
   "incident-response/on-call-handoff-patterns": {
-    "badge": "bronze",
-    "composite": 65.8894584139265,
-    "digest": "59badcc391ad9ec9c2f753386645a797cd8b409e5fefef2efae76d202ff523a4",
-    "static_score": 0.6689106382978723,
+    "badge": "silver",
+    "composite": 72.72566086395872,
+    "digest": "9a52e69f0dfc151debaf251bf3d3aaca98d9c44c8cc7e66812a95ef6d65c9761",
+    "static_score": 0.7336340425531915,
     "sub_scores": {
-      "ecosystem_coherence": 0.91,
+      "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.77,
       "harness_portability": 1.0,
       "orchestration_wiring": 0.7999999999999999,
@@ -1261,9 +1381,9 @@
   },
   "incident-response/postmortem-writing": {
     "badge": "silver",
-    "composite": 71.42007321537524,
-    "digest": "d6dd4ebbf495550b00c88f5c2bc5b101e98b429aa44e5b1b8144c0dca82348a2",
-    "static_score": 0.7138087248322147,
+    "composite": 71.44043887147336,
+    "digest": "80463651ada057326c1ce557c3178951c94f0a48d5641997a5186dcab1db5742",
+    "static_score": 0.7140103448275862,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.6499999999999999,
@@ -1271,7 +1391,7 @@
       "orchestration_wiring": 0.75,
       "progressive_disclosure": 0.75,
       "structural_completeness": 0.49999999999999994,
-      "token_efficiency": 0.9812080536912752
+      "token_efficiency": 0.983448275862069
     }
   },
   "javascript-typescript/javascript-testing-patterns": {
@@ -1292,7 +1412,7 @@
   "javascript-typescript/modern-javascript-patterns": {
     "badge": "bronze",
     "composite": 64.69696969696969,
-    "digest": "c7fdc3071f8b7c77e6426ba15da48829a738df126d2228b8e14cb64d374156fb",
+    "digest": "f6d50010efe418c1052f48045725978aafeb4b3054dceafadaee0ea452e3fce9",
     "static_score": 0.6322,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -1307,7 +1427,7 @@
   "javascript-typescript/nodejs-backend-patterns": {
     "badge": "bronze",
     "composite": 67.95454545454544,
-    "digest": "33dc6e804bbc1300dd78a3f61126d4ffa8ef18821c1b8360c561b166c0b30384",
+    "digest": "ce2dc06fc4be9723bccc7d31ae2c19782c81bfe837210f6d989df597faf99e9b",
     "static_score": 0.6602,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -1336,9 +1456,9 @@
   },
   "kubernetes-operations/gitops-workflow": {
     "badge": "silver",
-    "composite": 74.52716823406479,
-    "digest": "9630d0711fdfb1079d567f516303abf02ea2b7a4f45683046ae5412807814934",
-    "static_score": 0.7597689655172414,
+    "composite": 74.53997421018698,
+    "digest": "dbaae1287513218a471b03c8c9ef4a0f9e8f57f02262708e331d7d5dc492212e",
+    "static_score": 0.7598957446808511,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.71,
@@ -1346,7 +1466,7 @@
       "orchestration_wiring": 0.75,
       "progressive_disclosure": 0.75,
       "structural_completeness": 0.7000000000000001,
-      "token_efficiency": 0.8896551724137931
+      "token_efficiency": 0.8910638297872341
     }
   },
   "kubernetes-operations/helm-chart-scaffolding": {
@@ -1367,7 +1487,7 @@
   "kubernetes-operations/k8s-manifest-generator": {
     "badge": "silver",
     "composite": 70.37878787878789,
-    "digest": "58270203cc790414c0c2acffb29856815685aa1f1edfb46ce5cb9926a670cb3a",
+    "digest": "269fed96299bf38006f50188d3b361f3174fc8bf18b742f3cf403be81f474335",
     "static_score": 0.7047,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
@@ -1472,7 +1592,7 @@
   "llm-application-dev/rag-implementation": {
     "badge": "silver",
     "composite": 72.08520852085208,
-    "digest": "22f49e38d027cd87992e6c8bbf85ea2d83ea1d536aebcf268b525a44cee4fb4e",
+    "digest": "d055e036fa2fa9d6a5b0a813c51c3b3f585760c1b57e55d815e7c0ba14e593c2",
     "static_score": 0.7153435643564356,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -1697,7 +1817,7 @@
   "observability-monitoring/distributed-tracing": {
     "badge": "bronze",
     "composite": 67.04545454545455,
-    "digest": "3110fa666579d6c332d4179793539c6980b21155cb1c2db02348d829f3e242de",
+    "digest": "eb4a26480ffa7493b1246fb066565bc4b80af9744fe33568efb1cec7fb07c6a3",
     "static_score": 0.6822,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
@@ -1711,9 +1831,9 @@
   },
   "observability-monitoring/grafana-dashboards": {
     "badge": "silver",
-    "composite": 71.55303030303031,
-    "digest": "c00e86e63753191ba21af50267e7e3c3e7b27be717ab1ebf73f5b2cc0bbfedad",
-    "static_score": 0.726325,
+    "composite": 71.54120065003346,
+    "digest": "251a3f5d939e096b01f5b2167aaf511771c555891de7a20220e405e252bc0e09",
+    "static_score": 0.7262078864353312,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.71,
@@ -1721,13 +1841,13 @@
       "orchestration_wiring": 0.75,
       "progressive_disclosure": 0.6,
       "structural_completeness": 0.6000000000000001,
-      "token_efficiency": 0.8625
+      "token_efficiency": 0.861198738170347
     }
   },
   "observability-monitoring/prometheus-configuration": {
     "badge": "bronze",
     "composite": 68.44155844155844,
-    "digest": "9ae8b1655708c3f762908837586520c3d8bcfcc1e56a51ea1a28075a162a85d0",
+    "digest": "954b9974861a30db2361a10f4f8b71a6da66c3570a4a2d797b120f9d2d4fd4ae",
     "static_score": 0.6952714285714285,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
@@ -1741,9 +1861,9 @@
   },
   "observability-monitoring/slo-implementation": {
     "badge": "silver",
-    "composite": 73.63636363636364,
-    "digest": "71b7d9d4fabbbd85bac9a29e8f8a8c2d5b20fb50065e1c3f59726b6d91da3fb4",
-    "static_score": 0.7407,
+    "composite": 73.62786745964316,
+    "digest": "f412f05fcfd369cbbad5f28c116357c733ede66fb1fcc363c311909b8ef1611f",
+    "static_score": 0.7406158878504673,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.71,
@@ -1751,7 +1871,7 @@
       "orchestration_wiring": 0.75,
       "progressive_disclosure": 0.75,
       "structural_completeness": 0.65,
-      "token_efficiency": 0.9
+      "token_efficiency": 0.8990654205607477
     }
   },
   "payment-processing/billing-automation": {
@@ -1906,23 +2026,23 @@
   },
   "protect-mcp/protect-mcp-setup": {
     "badge": "silver",
-    "composite": 74.92424242424242,
-    "digest": "4cc894334ccc182f8bc85268ed55ab954626e37b4460809887d778529406944a",
-    "static_score": 0.749,
+    "composite": 77.28992377765384,
+    "digest": "f5e2c64ccfa4ad41b82174301e4e163a0bd50d0cf80ab28e15af23f0c79cb29c",
+    "static_score": 0.779920245398773,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.6499999999999999,
-      "harness_portability": 0.85,
+      "harness_portability": 1.0,
       "orchestration_wiring": 0.9,
-      "progressive_disclosure": 0.6,
+      "progressive_disclosure": 0.75,
       "structural_completeness": 0.7000000000000001,
-      "token_efficiency": 0.9333333333333333
+      "token_efficiency": 0.943558282208589
     }
   },
   "python-development/async-python-patterns": {
     "badge": "silver",
     "composite": 72.56508749466497,
-    "digest": "13b48ed612547db11e10179ec1a0d6848ab78f7adc1fd631402cd6905f91bcee",
+    "digest": "b3f7c8db592f92e423b2989a7abad7c5483307e2ed9540565b995d1e1dcaf969",
     "static_score": 0.7243943661971831,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -1981,9 +2101,9 @@
   },
   "python-development/python-configuration": {
     "badge": "silver",
-    "composite": 75.66985645933015,
-    "digest": "6c91728661cc3868e7f0288f1c049d19fb06428e885235e7a6319761e124e789",
-    "static_score": 0.7593315789473685,
+    "composite": 75.63636363636364,
+    "digest": "ab248c44978409593bd30cf4addccd549cf745762c7b20a399adf10e29b1284d",
+    "static_score": 0.759,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.71,
@@ -1991,7 +2111,7 @@
       "orchestration_wiring": 0.8,
       "progressive_disclosure": 0.75,
       "structural_completeness": 0.55,
-      "token_efficiency": 0.9236842105263158
+      "token_efficiency": 0.92
     }
   },
   "python-development/python-design-patterns": {
@@ -2027,7 +2147,7 @@
   "python-development/python-observability": {
     "badge": "gold",
     "composite": 80.21943573667713,
-    "digest": "833457fab4629005d7bdf14342f555b96c2d11766ca12a1a3980a76dadc2ac7e",
+    "digest": "48f4b2dc4ebe427d750589bedb65ba9d7231b375a71c96e4490a81ad11032120",
     "static_score": 0.7865724137931035,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -2042,7 +2162,7 @@
   "python-development/python-packaging": {
     "badge": "silver",
     "composite": 71.38257575757576,
-    "digest": "21c40a6c70701a6be8561b1ff55e75b6d043f692131d16c58006f0dd8e7b3ecf",
+    "digest": "9fc07bb49d28db703e9c4ee6885aeb94c045d9ada87b1ebb2f29643e4f6c4dc0",
     "static_score": 0.7083875000000001,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -2057,7 +2177,7 @@
   "python-development/python-performance-optimization": {
     "badge": "bronze",
     "composite": 69.39393939393939,
-    "digest": "68702104c6aa371ba28af165db1ab14d95dce320334ed337d0057dbfa8c40251",
+    "digest": "43906cddb8e735180653e837b2425b25d80d7277c7d668929e270815d41295ee",
     "static_score": 0.6865,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -2102,7 +2222,7 @@
   "python-development/python-resource-management": {
     "badge": "silver",
     "composite": 77.55282555282555,
-    "digest": "1d26e2a215e0203e5b73c05e0c39700b1b642744c24e33f45ef9f82ab6a16a6a",
+    "digest": "3faf229571fd2ee2d16a9c21054a7c6b7d52b71f447d864ce350898db9641e90",
     "static_score": 0.757972972972973,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -2117,7 +2237,7 @@
   "python-development/python-testing-patterns": {
     "badge": "silver",
     "composite": 78.0909090909091,
-    "digest": "22d53be9812ee5f69e91bf38dd0a9605245294a1c4dff8aec37c42ba23310f71",
+    "digest": "f4538ed972e9a00a4c1bd241b57bd8d4a77534c8a9113d13c14b00dddfae05e5",
     "static_score": 0.7688,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -2146,16 +2266,16 @@
   },
   "python-development/uv-package-manager": {
     "badge": "silver",
-    "composite": 75.84626755358464,
-    "digest": "4c926965ef29c32d065f2fc6909795d9a9f96fb703de7e218301e087e38c3613",
-    "static_score": 0.7498780487804878,
+    "composite": 76.07354028085736,
+    "digest": "60e2e83a83200ba648ff7800a8f792c184faeb103c90d9554272eea90b5e0569",
+    "static_score": 0.7548780487804878,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.6499999999999999,
       "harness_portability": 1.0,
       "orchestration_wiring": 0.9,
       "progressive_disclosure": 0.75,
-      "structural_completeness": 0.55,
+      "structural_completeness": 0.6000000000000001,
       "token_efficiency": 0.943089430894309
     }
   },
@@ -2192,7 +2312,7 @@
   "reverse-engineering/anti-reversing-techniques": {
     "badge": "silver",
     "composite": 73.07792207792207,
-    "digest": "992b89b4de897442ea5bbcccd439a297d7433a7ab4945c52b6e622ccec94e6a6",
+    "digest": "2c677ef31ee4a94cc8f3247fb062ec858338a7c307accf178cd60ee2e3d03253",
     "static_score": 0.7198714285714286,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
@@ -2236,24 +2356,24 @@
   },
   "reverse-engineering/protocol-reverse-engineering": {
     "badge": "silver",
-    "composite": 73.94495588799387,
-    "digest": "f17ac4ac203892e21a965a4e70f5421e1eb924ff70b70bb92de5a07d4dc4a9ec",
-    "static_score": 0.7410050632911392,
+    "composite": 73.71878121878123,
+    "digest": "c28b1cc1c139aa937da027725ec7d07334ebdf3ba9b737b7602759ad546416a4",
+    "static_score": 0.738765934065934,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.71,
-      "harness_portability": 0.85,
-      "orchestration_wiring": 0.8,
-      "progressive_disclosure": 0.6,
-      "structural_completeness": 0.8,
-      "token_efficiency": 0.9422784810126582
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.75,
+      "progressive_disclosure": 0.75,
+      "structural_completeness": 0.6,
+      "token_efficiency": 0.9340659340659341
     }
   },
   "review-agent-governance/review-agent-setup": {
     "badge": "bronze",
-    "composite": 69.64667685255921,
-    "digest": "0ee3eb66191fa907f0df25a8e21d209aa8e7c7afcab9dd644f1d1bf13ec305ec",
-    "static_score": 0.7062521008403362,
+    "composite": 69.69168428470755,
+    "digest": "7bf83b84cf8bb8dcb2084b0bcbe2ca772d0b5a2a47c90a92a90bdc0ed3347237",
+    "static_score": 0.7066976744186046,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.6499999999999999,
@@ -2261,7 +2381,7 @@
       "orchestration_wiring": 0.8,
       "progressive_disclosure": 0.5,
       "structural_completeness": 0.7000000000000001,
-      "token_efficiency": 0.9361344537815126
+      "token_efficiency": 0.9410852713178295
     }
   },
   "security-scanning/attack-tree-construction": {
@@ -2281,9 +2401,9 @@
   },
   "security-scanning/sast-configuration": {
     "badge": "silver",
-    "composite": 79.53896103896105,
-    "digest": "5635e6836e21d4affc1005a0575bb8b1e653ee36492c651cf6ecec515eeca6a0",
-    "static_score": 0.7998857142857143,
+    "composite": 79.4949494949495,
+    "digest": "473dfa2b5098b9cebd000ca2c2bd99894ec9f98169bb94c5b060d1b679cccade",
+    "static_score": 0.79945,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.71,
@@ -2291,7 +2411,7 @@
       "orchestration_wiring": 1.0,
       "progressive_disclosure": 0.5,
       "structural_completeness": 0.8,
-      "token_efficiency": 0.9742857142857143
+      "token_efficiency": 0.9694444444444444
     }
   },
   "security-scanning/security-requirement-extraction": {
@@ -2342,7 +2462,7 @@
   "shell-scripting/bash-defensive-patterns": {
     "badge": "bronze",
     "composite": 62.424242424242415,
-    "digest": "37fbe39a01c2f7312ba0aacf5a90cdde44ba6bb18e4301edbae66a0d7d09c635",
+    "digest": "ef2cf7080191f59284ea3ac770091e9a17971a2a23f90de0f9f02650b4ef2f70",
     "static_score": 0.613,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
@@ -2385,33 +2505,33 @@
     }
   },
   "ship-mate/scan": {
-    "badge": "bronze",
-    "composite": 65.55361305361305,
-    "digest": "92952a50727d5693f8dcee4d3b26408b6b9571c2c05a1793872cf5b271be6d4f",
-    "static_score": 0.6497307692307692,
+    "badge": "silver",
+    "composite": 70.88923212709621,
+    "digest": "87b5af98b770179d67523536bf6dc4e68d9753c5395b1e9be3beeed19b8c968e",
+    "static_score": 0.7005533980582525,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.6499999999999999,
-      "harness_portability": 0.85,
-      "orchestration_wiring": 0.65,
-      "progressive_disclosure": 0.6,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.8,
+      "progressive_disclosure": 0.65,
       "structural_completeness": 0.4,
-      "token_efficiency": 0.9692307692307692
+      "token_efficiency": 0.9728155339805825
     }
   },
   "signed-audit-trails/signed-audit-trails-recipe": {
     "badge": "silver",
-    "composite": 77.30361555468852,
-    "digest": "31f69829116d85b3ee4a9abbc5e1bc5ba728c692d31930bb7b0482ecb1b82ffa",
-    "static_score": 0.7800557939914163,
+    "composite": 74.29400386847196,
+    "digest": "0f85d146edee1fb0afbff6be522a17d0d4962aa02425c0e1c3977e00310fc078",
+    "static_score": 0.7545106382978723,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.6499999999999999,
       "harness_portability": 1.0,
-      "orchestration_wiring": 0.9,
+      "orchestration_wiring": 0.8,
       "progressive_disclosure": 0.75,
-      "structural_completeness": 0.7000000000000001,
-      "token_efficiency": 0.9450643776824035
+      "structural_completeness": 0.65,
+      "token_efficiency": 0.9723404255319149
     }
   },
   "skill-forge-essentials/ai-debt-detector": {
@@ -2476,17 +2596,17 @@
   },
   "startup-business-analyst/competitive-landscape": {
     "badge": "silver",
-    "composite": 71.36363636363636,
-    "digest": "60f5c5d7e6b6896b21f28d20c52d8475b64bea861ea6204d3e0e50c62058a838",
-    "static_score": 0.70975,
+    "composite": 72.16742109895637,
+    "digest": "73a16f7d51ab641e05ed6c3c51c64529b98a67f0dddd9f190acf41b9d846e6ee",
+    "static_score": 0.728707468879668,
     "sub_scores": {
       "ecosystem_coherence": 0.75,
       "frontmatter_quality": 0.6499999999999999,
-      "harness_portability": 0.85,
-      "orchestration_wiring": 0.8,
-      "progressive_disclosure": 0.6,
+      "harness_portability": 1.0,
+      "orchestration_wiring": 0.75,
+      "progressive_disclosure": 0.75,
       "structural_completeness": 0.49999999999999994,
-      "token_efficiency": 0.975
+      "token_efficiency": 0.9800829875518672
     }
   },
   "startup-business-analyst/market-sizing-analysis": {
@@ -2520,18 +2640,18 @@
     }
   },
   "startup-business-analyst/startup-metrics-framework": {
-    "badge": "bronze",
-    "composite": 69.6861471861472,
-    "digest": "6d13db8af8c23d89e96e85e803214f3c8bd06b7802cec4bb2a24222f6956c858",
-    "static_score": 0.6801428571428572,
+    "badge": "silver",
+    "composite": 72.29753285063019,
+    "digest": "6610fd7a17af7c31ed389db6697d84222d27e3ff80500a4a3c5fbce0bb222039",
+    "static_score": 0.713495575221239,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
       "frontmatter_quality": 0.6499999999999999,
-      "harness_portability": 0.85,
+      "harness_portability": 1.0,
       "orchestration_wiring": 0.8,
-      "progressive_disclosure": 0.6,
+      "progressive_disclosure": 0.75,
       "structural_completeness": 0.4,
-      "token_efficiency": 0.9238095238095239
+      "token_efficiency": 0.9610619469026549
     }
   },
   "startup-business-analyst/team-composition-analysis": {
@@ -2567,7 +2687,7 @@
   "systems-programming/go-concurrency-patterns": {
     "badge": "silver",
     "composite": 73.3601841196778,
-    "digest": "2b623f88b7e51ccb55cc6a13dbab3f8cb5449fea3d674ede6cf5214232a6ee37",
+    "digest": "7817113ba74da04a97115b85a4ef93206f3fd478137384aa032e226b36820696",
     "static_score": 0.7244658227848102,
     "sub_scores": {
       "ecosystem_coherence": 0.5,
